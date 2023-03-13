@@ -1,0 +1,18 @@
+[package]
+name = "prac"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.25"
+env_logger = "0.10.0"
+futures = "0.3.26"
+log = "0.4.17"
+async-trait = "0.1.66"
+# openapi_client = {path = "./op"}
+# swagger = "6.2.1"
+tokio = { version = "1.14", features = ["full"] }
+
+
